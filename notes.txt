@@ -1,0 +1,9 @@
+C           R           U           D
+create      retrive     update      delete
+
+
+Http 1.GET    = create
+     2.Post   = retrive
+     3.PUT    = update
+     4.DELETE = delete
+
