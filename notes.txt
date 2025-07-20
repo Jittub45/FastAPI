@@ -7,3 +7,26 @@ Http 1.GET    = create
      3.PUT    = update
      4.DELETE = delete
 
+HTTP status codes
+1.2xx success
+2.3xx redirect
+3.4xx client error
+4.5xx server error
+
+200 ok
+201 created
+204 no content
+
+400 bad request
+401 unauthorized 
+403 forbidden
+404 not found
+
+500 intrenal server error 
+502 bad gateway
+503 service unaviable 
+
+--Path Parameter: dynamic part of the url by which we can fetch particular part of the data. They are required parameter. Used during retrival, deletion and updation.
+--Query Parameter: existing endpoints -- seraching, filtering.
+     Example: /patients?city=Delhi&sort_by=age
+--
