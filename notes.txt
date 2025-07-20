@@ -29,4 +29,18 @@ HTTP status codes
 --Path Parameter: dynamic part of the url by which we can fetch particular part of the data. They are required parameter. Used during retrival, deletion and updation.
 --Query Parameter: existing endpoints -- seraching, filtering.
      Example: /patients?city=Delhi&sort_by=age
---
+
+
+UPDATE Endpoints 
+1. New pydantic model(optional required fields)
+2. New data --> existing data(update)
+
+
+existing_patient_info -> pydantic object -> updated bmi + vedict 
+-> pydantic obj -> dic 
+
+
+DELETE endpoint
+input = patient_id
+
+remove = data ->  kay value = patient_id
